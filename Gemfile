@@ -31,6 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'haml', '~> 4.0', '>= 4.0.7'
+#gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'simple_form', github: 'kesha-antonov/simple_form', ref: 'a1561c930f3be279f3580c2510f2555f2e67a4f4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
